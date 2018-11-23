@@ -1,0 +1,17 @@
+{
+  "name": "sharper-timers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js -w server.js"
+  },
+  "author": "Farolan Faisal <farolanfaisal@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
+}
