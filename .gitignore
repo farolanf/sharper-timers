@@ -1,0 +1,6 @@
+node_modules
+public/timers.json
+.*
+~*
+*.log
+!.gitignore
