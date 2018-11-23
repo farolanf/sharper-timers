@@ -14,4 +14,4 @@ app.post('/timers', (req, res, next) => {
 
 const port = 3100
 
-app.listen(port, () => console.log('Timer server listening on port ' + port))
+app.listen(port, () => console.log('Timer server listening on port ' + port + ' http://localhost:' + port))
